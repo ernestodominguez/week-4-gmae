@@ -10,58 +10,79 @@
  
   <script src="assets/javascript/game.js"></script>
   
-	<title>crystalcollector</title>
+	<title>Car quiz</title>
 </head>
     <body>
       <div class="jumbotron text-center">
-      <h1> Pokemon Collector! </h1>
+      <h1> Car Logo quiz </h1>
+      <h1 class="Time">Time remaining:<span id="countdowntimer">15 </span></h1>
+     
       <p>
-        <li>You will be given a random number at the start of the game.</li>
-      <li>There are four pokemons below. By clicking on the pokemon you will add a specific amount of points to your total score.</li> <li>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</li> <li>the value of each pokemon is hidden from you until you click on it.</li>
-      <li> Each time when the game starts,the game will change the vlaues of each pokemon
-        </li>
+       
     </p> 
     </div>
-
+     
     <div class="container">
       <div class="row">
         <div class="col-sm-3">
-          <h3>Player 1</h3>
-          <img id="foto1" class="foto1 " src="https://vignette.wikia.nocookie.net/pokemon/images/5/54/Pokemon-Ash-s-Pikachu-Riley-Sir-Aaron-s-Lucarios-pokemon-guys-10262907-563-579.jpg/revision/latest?cb=20131129010151">
+          <h3>Foto 1</h3>
+          <img id="foto1" class="foto1 " src="https://vignette.wikia.nocookie.net/dirtgame/images/7/71/Audi_logo_001.jpg/revision/latest?cb=20130810125746">
           
         </div>
         <div class="col-sm-3">
-          <h3>Player 2</h3>
-          <img id="foto2" class="foto2" src="https://vignette.wikia.nocookie.net/my-pokemon-fanfic-adventures/images/f/f2/Charmander.jpg/revision/latest?cb=20130910221414">
+          <h3>Foto 2</h3>
+          <img id="foto2" class="foto2" src="http://www.logosvectorfree.com/wp-content/uploads/2017/12/Buick-Logo-EPS-PDF-Car-and-Motorcycle-Logos.jpg">
         </div>
         <div class="col-sm-3">
-          <h3>Player 3</h3> 
-          <img id="foto3" class="foto3" src="https://img00.deviantart.net/546c/i/2012/035/b/2/squirtle_by_maii1234-d4oo1aq.jpg">
+          <h3>Foto 3</h3> 
+          <img id="foto3" class="foto3" src="https://cdn.shopify.com/s/files/1/0890/6136/products/Mitsubishi-logo_1ca495ed-73a1-4353-a963-46eb23f880e9_600x600.png">
         </div>
         <div class="col-sm-3">
-          <h3>Player 4</h3> 
-          <img id="foto4" class="foto4" src="http://www.2oceansvibe.com/wp-content/uploads/2015/04/pokemon2.jpg">
+          <h3>Foto 4</h3> 
+          <img id="foto4" class="foto4" src="https://vignette.wikia.nocookie.net/driftspirits/images/0/07/Lexus_Logo.png/revision/latest?cb=20170628105740">
         </div>
+        
+
         <div class="row">
-          <div class="col-md-12">
-            <h1>PLAY GAME</h1>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <h2>Target score: <span id="targetscore"></span></h2>
+          <div class="col-md-3">
+            <h1>
+              <button type="button" class="btn btn-success" id="correct">Bmw</button></12>
+              <button type="button" class="btn btn-success">Audi</button></12>
+              <button type="button" class="btn btn-success">Volkswagon</button></12>
+              <button type="button" class="btn btn-success">chevrolet</button></12>
+
           </div>
-            <div class="col-md-4">
-              <ul class="colo">
-              <li><h2>Wins:</h2></li>
-              <li><h2>losses:</h2></li>
-              </ul>
+            <div class="col-md-3">
+              <h1>
+                <button type="button" class="btn btn-primary">Toyota</button>
+                <button type="button" class="btn btn-primary">Lexus</button>
+                <button type="button" class="btn btn-primary">Buick</button>
+                <button type="button" class="btn btn-primary">Aston Martin</button>
+              </h1>
             </div>
-             <div class="col-md-4">
-            <h2>Your total score is:<span id="your"></span></h2>
+             <div class="col-md-3">
+            <h1>
+              <button type="button" class="btn btn-warning">Infinity</button>
+              <button type="button" class="btn btn-warning">Dodge</button>
+              <button type="button" class="btn btn-warning">Mitsubishi</button>
+              <button type="button" class="btn btn-warning">Kia</button>
+            </h1>
           </div>
+          <div class="col-md-3">
+            <h1>
+              <button type="button" class="btn btn-info">Jaguar</button>
+              <button type="button" class="btn btn-info">Lexus</button>
+              <button type="button" class="btn btn-info">Land rover</button>
+              <button type="button" class="btn btn-info">Audi</button>
+              
+            </h1>
+            
+          </div>
+          <div class="col-md-12"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdov8ZeSbyTOtJ9l-hYRoWgn9eU3Gh2Z2pP8TdrQwdM_MQbJRdKQ"></div>
+
           </div>
     </div>
 </div>
-<p class="footer">Go Pokemon, gotta to catch them all!</p>
+
 </body>
 </html>
